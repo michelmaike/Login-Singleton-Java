@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class SistemaLogin { //classe principal com a main
 
     public static String gerarCaptcha(int tamanho) { //metodo para gerar um captcha
-        String chars = "ABCDEDFGHIJKLMNOPQRSTUVWXYZ123456789"; //caracteres permitidos no captcha
+        String chars = "ABCDEDFGHIJKLMNOPQRSTUVWXYZ123456789!@#$"; //caracteres permitidos no captcha
         Random random = new Random();
         StringBuilder codicoGeradoCaptcha = new StringBuilder();
 
